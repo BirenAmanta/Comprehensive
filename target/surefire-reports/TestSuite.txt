@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 199.493 s <<< FAILURE! - in TestSuite
+com.mindtree.runner.GiftRunner.LogIn[motog05052000@gmail.com, 123456789](1)  Time elapsed: 17.614 s  <<< FAILURE!
+com.mindtree.exceptions.ApplicationException: Logged in failed
+	at com.mindtree.runner.GiftRunner.LogIn(GiftRunner.java:71)
+
+com.mindtree.runner.GiftRunner.cartValidate  Time elapsed: 1.225 s  <<< FAILURE!
+com.mindtree.exceptions.ApplicationException: All products not Added to cart
+	at com.mindtree.runner.GiftRunner.cartValidate(GiftRunner.java:244)
+

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="199.493" tests="10" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="webdriver.chrome.driver" value="D:\eclipse-workspace\HybridCompress./driver/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\eclipse-workspace\HybridCompress\target\test-classes;D:\eclipse-workspace\HybridCompress\target\classes;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\M1074035\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\M1074035\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\M1074035\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\M1074035\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\M1074035\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\M1074035\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\M1074035\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\M1074035\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\M1074035\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\M1074035\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\M1074035\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\M1074035\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\M1074035\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\M1074035\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\M1074035\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\M1074035\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\M1074035\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\M1074035\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\M1074035\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\M1074035\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\M1074035\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\M1074035\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\M1074035\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\M1074035\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\M1074035\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\M1074035\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\M1074035\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\M1074035\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\M1074035\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\M1074035\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\M1074035\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\M1074035\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\M1074035\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\M1074035\AppData\Local\Temp\surefire7599578748224867195\surefirebooter6243269690951260366.jar C:\Users\M1074035\AppData\Local\Temp\surefire7599578748224867195 2021-11-22T17-10-32_865-jvmRun1 surefire5101625142633577233tmp surefire_011503246642314762370tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\eclipse-workspace\HybridCompress\target\test-classes;D:\eclipse-workspace\HybridCompress\target\classes;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\M1074035\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\M1074035\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\M1074035\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\M1074035\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\M1074035\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\M1074035\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\M1074035\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\M1074035\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\M1074035\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\M1074035\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\M1074035\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\M1074035\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\M1074035\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\M1074035\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\M1074035\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\M1074035\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\M1074035\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\M1074035\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\M1074035\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\M1074035\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\M1074035\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\M1074035\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\M1074035\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\M1074035\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\M1074035\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\M1074035\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\M1074035\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\M1074035\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\M1074035\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\M1074035\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\M1074035\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\M1074035\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\M1074035\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\M1074035"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Users\M1074035\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\eclipse-workspace\HybridCompress"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\M1074035\AppData\Local\Temp\surefire7599578748224867195\surefirebooter6243269690951260366.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.2+7-67"/>
+    <property name="user.name" value="M1074035"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\M1074035\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\M1074035\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="user.dir" value="D:\eclipse-workspace\HybridCompress"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\M1074035\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Users/M1074035/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin/server;C:/Users/M1074035/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-openj9\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\WindowsPowerShell\Scripts;C:\Program Files\Git\cmd;C:\Program Files\Notepad++;C:\Program Files\Git\usr\bin;C:\Program Files\Git\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\M1074035\AppData\Local\Microsoft\WindowsApps;C:\Users\M1074035\Downloads\apache-maven-3.8.2\apache-maven-3.8.2\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\M1074035\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\bin;;C:\Users\M1074035\OneDrive - Mindtree Limited\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.2+7-67"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="validateTitle[Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in](1)" classname="com.mindtree.runner.GiftRunner" time="0.426">
+    <system-out><![CDATA[{personalize gift name=Personalized Metallic Keychain I COD Not Available, home decor quantity=3, pw=123456789, christmas item=Christmas Socks, gifts type=Gifts For Kids, secret santa item=Harry Potter Plush Slippers, what's new gift quantity=3, corporate Name=Biren, corporate phn=8658865825, secret santa quantity=3, christmas quantity=2, gifts items=Panda Wooden LED Lamp, what's new gift name=Dice Keeper 3D Puzzle, home decor item=3D Jewellery Holder Palette, corporate Email=demo@gmai.com, id=motog05052000@gmail.com, personalize  name=Biren, personalize quantity=3, gifts quantity=3}
+11-22-2021 17:10:47 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - URL Opened
+11-22-2021 17:10:48 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11-22-2021 17:10:48 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11-22-2021 17:10:48 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11-22-2021 17:10:48 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11-22-2021 17:10:48 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/M1074035/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+11-22-2021 17:10:48 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Page opend with title Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts– Bigsmall.in
+11-22-2021 17:10:48 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11-22-2021 17:10:48 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11-22-2021 17:10:48 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11-22-2021 17:10:48 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11-22-2021 17:10:48 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/M1074035/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No such property [maxBackupIndex] in com.mindtree.utilities.Log.
+log4j:WARN No such property [maxFileSize] in com.mindtree.utilities.Log.
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 6933
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 22, 2021 5:10:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="LogIn[motog05052000@gmail.com, 123456789](1)" classname="com.mindtree.runner.GiftRunner" time="17.614">
+    <failure message="Logged in failed" type="com.mindtree.exceptions.ApplicationException"><![CDATA[com.mindtree.exceptions.ApplicationException: Logged in failed
+	at com.mindtree.runner.GiftRunner.LogIn(GiftRunner.java:71)
+]]></failure>
+    <system-out><![CDATA[11-22-2021 17:10:51 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Log In Button is clicked in page Home Page
+11-22-2021 17:10:56 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Email field is send in page Account Log in
+11-22-2021 17:10:56 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - password field is send in page Account Log in
+11-22-2021 17:11:02 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - sign in button is clicked in page Account Log in
+11-22-2021 17:11:02 ExtentLogUtilities.java ERROR [main] runner.GiftRunner 21 - logged in failed
+11-22-2021 17:11:05 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Bigsmall pic is clicked in page Log in page
+11-22-2021 17:11:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11-22-2021 17:11:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11-22-2021 17:11:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11-22-2021 17:11:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11-22-2021 17:11:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/M1074035/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+  </testcase>
+  <testcase name="PersonalizeGift[3, Biren, Personalized Metallic Keychain I COD Not Available](1)" classname="com.mindtree.runner.GiftRunner" time="30.141">
+    <system-out><![CDATA[11-22-2021 17:11:09 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Personalize Gift button is clicked in page Home page
+11-22-2021 17:11:21 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Personalized Metallic Keychain I COD Not Available is clicked in page result page
+11-22-2021 17:11:23 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Quantity Field is send in page Cart Page
+11-22-2021 17:11:24 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - name Field is send in page Cart Page
+11-22-2021 17:11:24 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Add to cart is clicked in page Cart page
+11-22-2021 17:11:31 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Bigsmall pic is clicked in page cart page
+11-22-2021 17:11:36 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11-22-2021 17:11:36 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11-22-2021 17:11:36 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11-22-2021 17:11:36 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11-22-2021 17:11:36 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/M1074035/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+  </testcase>
+  <testcase name="WhtsNewGift[3, Dice Keeper 3D Puzzle](1)" classname="com.mindtree.runner.GiftRunner" time="24.745">
+    <system-out><![CDATA[11-22-2021 17:11:39 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Personalize Gift button is clicked in page Home page
+11-22-2021 17:11:46 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Dice Keeper 3D Puzzle is clicked in page result page
+11-22-2021 17:11:50 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Quantity Field is send in page Cart Page
+11-22-2021 17:11:50 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Add to cart is clicked in page Cart page
+11-22-2021 17:11:54 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Close Button is clicked in page Cart Page
+11-22-2021 17:11:57 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Bigsmall pic is clicked in page cart
+11-22-2021 17:12:01 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11-22-2021 17:12:01 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11-22-2021 17:12:01 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11-22-2021 17:12:01 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11-22-2021 17:12:01 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/M1074035/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+  </testcase>
+  <testcase name="ChristmasGift[2, Christmas Socks](1)" classname="com.mindtree.runner.GiftRunner" time="25.53">
+    <system-out><![CDATA[11-22-2021 17:12:04 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - christmas gifts button is clicked in page  Home page
+11-22-2021 17:12:09 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Christmas Socks is clicked in page result page
+11-22-2021 17:12:13 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - quantity button  is send in page socks page
+11-22-2021 17:12:14 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - cart button is clicked in page socks page
+11-22-2021 17:12:17 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Close Button is clicked in page Cart Page
+11-22-2021 17:12:21 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Bigsmall pic is clicked in page cart page
+11-22-2021 17:12:26 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11-22-2021 17:12:26 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11-22-2021 17:12:26 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11-22-2021 17:12:26 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11-22-2021 17:12:26 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/M1074035/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+  </testcase>
+  <testcase name="SecretSantaGift[3, Harry Potter Plush Slippers](1)" classname="com.mindtree.runner.GiftRunner" time="16.833">
+    <system-out><![CDATA[11-22-2021 17:12:29 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - secretsanta button is clicked in page  Home page
+11-22-2021 17:12:33 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Harry Potter Plush Slippers is clicked in page result page
+11-22-2021 17:12:35 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 -  cart button is send in page cart page
+11-22-2021 17:12:36 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - cart button is clicked in page cart page
+11-22-2021 17:12:40 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Close Button is clicked in page Cart Page
+11-22-2021 17:12:43 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Bigsmall pic is clicked in page cart page
+11-22-2021 17:12:43 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11-22-2021 17:12:43 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11-22-2021 17:12:43 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11-22-2021 17:12:43 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11-22-2021 17:12:43 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/M1074035/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+  </testcase>
+  <testcase name="homeDecor[3, 3D Jewellery Holder Palette](1)" classname="com.mindtree.runner.GiftRunner" time="22.594">
+    <system-out><![CDATA[11-22-2021 17:12:46 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Home decor button is clicked in page  Home page
+11-22-2021 17:12:50 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - 3D Jewellery Holder Palette is clicked in page result page
+11-22-2021 17:12:53 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - quantity button is send in page lamp page
+11-22-2021 17:12:53 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - cart button is clicked in page lamp page
+11-22-2021 17:12:57 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Close Button is clicked in page Cart Page
+11-22-2021 17:13:00 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Bigsmall pic is clicked in page cart page
+]]></system-out>
+  </testcase>
+  <testcase name="Gifts[Gifts For Kids, 3, Panda Wooden LED Lamp](1)" classname="com.mindtree.runner.GiftRunner" time="25.936">
+    <system-out><![CDATA[Gifts for Guys
+Gifts For Girls
+Gifts for Kids
+11-22-2021 17:13:09 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Gifts For Kids is clicked in page Home Page
+11-22-2021 17:13:15 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Panda Wooden LED Lamp is clicked in page result page
+11-22-2021 17:13:19 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - quantity button  is send in page socks page
+11-22-2021 17:13:19 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - cart button is clicked in page socks page
+11-22-2021 17:13:23 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Close Button is clicked in page Cart Page
+11-22-2021 17:13:26 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Bigsmall pic is clicked in page cart page
+11-22-2021 17:13:32 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11-22-2021 17:13:32 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11-22-2021 17:13:32 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11-22-2021 17:13:32 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11-22-2021 17:13:32 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/M1074035/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+  </testcase>
+  <testcase name="cropDetailSubmit[Biren, demo@gmai.com, 8658865825](1)" classname="com.mindtree.runner.GiftRunner" time="19.07">
+    <system-out><![CDATA[11-22-2021 17:13:35 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Corporate Button is clicked in page Home Page
+11-22-2021 17:13:38 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Name is send in page Corporate form Page
+11-22-2021 17:13:38 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - email is send in page Corporate form Page
+11-22-2021 17:13:38 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Phone No. is send in page Corporate form Page
+11-22-2021 17:13:39 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Submit Button is clicked in page Corporate form Page
+11-22-2021 17:13:45 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Bigsmall pic is clicked in page cart page
+11-22-2021 17:13:51 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11-22-2021 17:13:51 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11-22-2021 17:13:51 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11-22-2021 17:13:51 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11-22-2021 17:13:51 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/M1074035/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+  </testcase>
+  <testcase name="cartValidate" classname="com.mindtree.runner.GiftRunner" time="1.225">
+    <failure message="All products not Added to cart" type="com.mindtree.exceptions.ApplicationException"><![CDATA[com.mindtree.exceptions.ApplicationException: All products not Added to cart
+	at com.mindtree.runner.GiftRunner.cartValidate(GiftRunner.java:244)
+]]></failure>
+    <system-out><![CDATA[11-22-2021 17:13:51 ExtentLogUtilities.java DEBUG [main] runner.GiftRunner 14 - Cart Button is clicked in page Home Page
+[2, Christmas Socks, 3, 3D Jewellery Holder Palette, Harry Potter Plush Slippers, Panda Wooden LED Lamp, Dice Keeper 3D Puzzle, Personalized Metallic Keychain I COD Not Available]
+11-22-2021 17:13:52 ExtentLogUtilities.java ERROR [main] runner.GiftRunner 21 - All products not Added to cart
+11-22-2021 17:13:52 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11-22-2021 17:13:52 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11-22-2021 17:13:52 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11-22-2021 17:13:52 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11-22-2021 17:13:52 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/M1074035/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+  </testcase>
+</testsuite>
